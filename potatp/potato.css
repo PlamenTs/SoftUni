@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Lato,sans-serif;
+}
+header{
+    background:rgba(192,169,145,1) 59%;
+}
+nav{
+    background:rgba(192,169,145,1) 59%;
+    color: #ffffff;
+
+
+}
+.button-cta{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 50px;
+}
+.button-cta:hover{
+    background:blanchedalmond;
+    cursor: pointer;
+}
+.brand{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px;
+    display: inline-block;
+    width: 100px;
+    float: left;
+
+
+}
+.nav-primary{
+
+    text-align: right;
+}
+a{
+
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.nav-item{
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.header-title{
+    text-align: center;
+    padding-top: 150px;
+    text-transform: capitalize;
+    font-size: 60px;
+    color: white;
+}
+.header-subtitle{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+
+}
+.header-potato{
+    display: inline-block;
+    width: 300px;
+    margin-left: 550px;
+    padding-top: 50px;
+
+}
+
+.features{
+    background: url("potato-background.png");
+    background-size: cover;
+    height: 900px;
+}
+.features-title{
+   padding-top: 300px;
+    text-align: center;
+    color: black;
+}
+.features-subtitle{
+
+    text-align: center;
+    padding-top: 20px;
+}
+.feature-potatoes{
+    width: 400px;
+    margin-left: 500px;
+    padding-top: 50px;
+}
+.buy-now{
+text-align: center;
+
+}
+.order-title{
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.potato-features{
+
+    width: 300px;
+    height: 300px;
+
+
+}
+.potato-img{
+    width: 200px;
+    margin-top: 50px;
+}
+.potato{
+    display: inline-block;
+    text-align: center;
+
+}
+.potato-price{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.potato-title{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.potato-description{
+    padding: 20px;
+
+}
+ul{
+    list-style-type: none;
+
+}
+.btn-order{
+    width: 120px;
+    height: 50px;
+    border: 2px solid green;
+    background: none;
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: green;
+}
+.btn-order:hover{
+    background: aquamarine;
+    color: white;
+}
+
+footer{
+    background:  #867260;
+}
+.footer-text{
+
+
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+
+}

@@ -1,0 +1,115 @@
+@media screen and (max-width: 1200px) {
+header{
+    background: url("Picture_1.jpg");
+  margin-bottom: 30px;
+    background-size: cover;
+    width: 640px;
+}
+    article{
+        width: 90%;
+    }
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    main section{
+        width: 90%;
+    }
+    #wrapper{
+        width: 100%;
+    }
+main aside{
+    width: 90%;
+}
+aside article{
+    display: block;
+    width: 95%;
+}
+footer{
+    text-align: center;
+}
+}
+
+
+
+@media screen and (max-width: 500px){
+
+
+    header{
+        width: 440px;
+
+    }
+   header h1{
+        font-size: 50px;
+    }
+   header p{
+       color: #f26013;
+   }
+   section{
+       width: 100%;
+       display: block;
+       height: 1030px;
+   }
+   section div{
+       display: block;
+       width: 100%;
+       text-align: center;
+
+   }
+   section article h3{
+       display: block;
+   }
+   section article{
+    display: block;
+       height: 300px;
+   }
+   article p{
+       display: block;
+   }
+   header nav{
+       height: 215px;
+
+   }
+   header nav> ul{
+       display: block;
+
+   }
+    header nav > ul li {
+        width: 90px;
+        display: block;
+        float: none;
+        margin: auto;
+
+    }
+    header nav> ul li a{
+        display: block;
+        width: 100%;
+    }
+    main{
+        margin: auto;
+    }
+    header{
+
+        background-size: 450px ,cover;
+    }
+   main aside{
+        width: 430px;
+
+       margin: auto;
+       text-align: center;
+    }
+   main > aside >article{
+       width: 350px;
+       text-align: center;
+       margin-left: 30px;
+
+
+   }
+
+main section > div{
+    height: 320px;
+}
+main>section>div>div{
+    background: green;
+}
+}

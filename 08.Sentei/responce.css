@@ -1,0 +1,23 @@
+@media all and (max-width: 481px) {
+.top-button{
+    display: none;
+}
+    .logo-image-container{
+        display: block;
+        text-align: center;
+
+    }
+    .header-wrapper{
+        background-color: black;
+    }
+   .header-subtitle{
+       display: none;
+   }
+   .header-title{
+       font-size: 40px;
+
+   }
+   .travel-title-container{
+       width:0;
+   }
+}

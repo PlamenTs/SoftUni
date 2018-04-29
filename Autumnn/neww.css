@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno|Vesper+Libre');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background:  #bc6c09;
+    width: 100%;
+
+}
+header{
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+main{
+    background-color: orange;
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 1%;
+
+}
+
+li{
+    display: inline-block;
+    float: right;
+    padding-top: 55px;
+}
+a{
+    text-decoration: none;
+    padding : 35px;
+    border: 3px double orange;
+    margin: 25px;
+    Color:Yellow;
+    background:none;
+    border-radius:15%;
+   text-transform: uppercase;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+.article-content{
+    border : double 1px greenyellow;
+    border-radius: 15px;
+    padding:15px;
+    margin:30px;
+
+}
+div{
+    border : double 1px greenyellow;
+    border-radius: 15px;
+    padding:15px;
+    margin:30px;
+    margin-bottom: 100px;
+
+}
+h1{
+    padding:5px;
+    font-size:35px;
+    Margin-top: 10px;
+    margin-left: 5px;
+    Color: #00d5f2;
+    border : double 1px #00d5f2;
+    display: inline-block;
+   font-family: "Rage Italic",serif;
+
+}
+article div figure{
+    border: 3px solid #142830;
+    Float: right;
+    Height: 320px;
+    Width: 530px;
+    Margin-left: 15px
+
+}
+figure{
+    Float: right;
+    Height: 320px;
+    Width: 530px
+
+}
+button{
+    Border: 2px dashed #685d50;
+
+    Background: #bc6c09;
+    Color :yellow;
+   padding: 30px;
+    margin-left: 350px;
+    margin-top: 25px;
+
+}
+a:hover{
+    color: red;
+    Background: #e8f3f4;
+    cursor: pointer;
+
+}
+button:hover{
+    color: red;
+    Background: #e8f3f4;
+    cursor: pointer;
+}
+footer{
+    Border: dotted greenyellow;
+    border-radius: 10px;
+    Color: yellow;
+   text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
