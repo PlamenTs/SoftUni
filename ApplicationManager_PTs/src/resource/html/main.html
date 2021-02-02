@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <script src="../../mainJs.js"></script>
+
+</head>
+<body>
+<main>
+
+    <div class="container main">
+        <div class="col-sm-12 title">
+            <h1>Students applications</h1>
+        </div>
+        <form class="main-form">
+            <div class="form-group  ">
+
+                <div class="form-group col-sm-5">
+                    <label for="InputUserName">Name</label>
+                    <input type="text" class="form-control" id="InputUserName" placeholder="Name">
+                </div>
+
+                <div class="form-group col-sm-5">
+                    <label for="InputEmail">E-mail</label>
+                    <input type="text" class="form-control" id="InputEmail" placeholder="E-mail">
+                </div>
+
+                <div class="form-group col-sm-5">
+                    <label for="InputPhoneNumber">Phone</label>
+                    <input type="text" class="form-control" id="InputPhoneNumber" placeholder="+359 999 919 999">
+                </div>
+
+
+                <div class="form-group col-sm-12 radio-btn-email">
+                    <label for="btn-radio-email" class="radio">Email </label>
+                    <input id="btn-radio-email" type="radio" name="radio-email-phone">
+                </div>
+
+                <div class="form-group col-sm-12 radio-btn-phone">
+                    <label for="btn-radio-phone" class="radio">Phone</label>
+                    <input id="btn-radio-phone" type="radio" name="radio-email-phone">
+                </div>
+
+                <div class="form-group col-sm-4 age">
+                    <label for="age">Age</label>
+                    <input id="age" type="number" name="age" min="1" max="99">
+                </div>
+
+
+                <div class="form-row col-sm-8 select-level">
+                    <div class="col-sm-4 date">
+                        <label for="date">Available to Start</label>
+                        <input id="date" type="date" name="date">
+                    </div>
+                    <div class="col-sm-4 select-levels">
+                        <label for="select-english-level">Select english level</label>
+                        <select id="select-english-level" name="english-level">
+                            <option value="beginner">Beginner</option>
+                            <option value="elementary">Elementary</option>
+                            <option value="pre-intermediate">Pre-Intermediate</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="upper-intermediate">Upper intermediate</option>
+                            <option value="advanced">Advanced</option>
+                            <option value="proficient">Proficient</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container text-area btn">
+
+                    <div class="form-group col-sm-12 comment">
+                        <label for="comment">Technical Skills and Courses</label>
+                        <textarea id="comment" class="form-control" rows="5" cols="90"></textarea>
+                    </div>
+
+                    <div class="form-group col-sm-12 checkbox">
+                        <label>
+                            <input type="checkbox" name="study" value="Study"> Study from home
+                        </label>
+                    </div>
+
+                    <div class="form-group col-sm-12">
+                        <input class="reset-btn" type="reset" value="Reset"/>
+                        <input class="submit-btn" type="submit" value="Submit">
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
