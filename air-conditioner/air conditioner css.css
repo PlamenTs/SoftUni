@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background:url(img/vector-blue-squares-abstract-background-geometric.jpg);
+    background-size: inherit;
+}
+
+header {
+    text-align: center;
+}
+
+.header-Title-h1 {
+    font-size: 40px;
+    padding-top: 5px;
+}
+.header-Title-h2{
+    font-size: 20px;
+}
+
+.air-Conditioners-Menu-Title{
+    text-align: center;
+      margin:5px 10px 0 10px;
+}
+
+.options-Menu{
+    margin-top: 40px;
+}
+.options-menu-Title {
+    text-align: center;
+    margin:5px 10px 0 10px;
+}
+
+.options-menu-Ul-Li {
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.options-Menu-Ul-Li-A {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.footer-Ul{
+    list-style-type: none;
+}
+.footer-Li{
+    float: right;
+}
+
+
